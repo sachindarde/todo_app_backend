@@ -1,0 +1,29 @@
+server:
+  port: 8082
+springbootwebfluxjjwt:
+  password:
+    encoder:
+      secret: There was coal in his stocking and he was thrilled
+      iteration: "33"
+      keylength: "256"
+  jjwt:
+    secret: geSshHtrvutrT1aiy1rsrzS5tShioTeWcMolheaiAeiiSsHe2nFmaKISTJ5tbgtTUe2T
+    expiration: "2592000"
+spring:
+  data:
+    mongodb:
+      authentication-database: admin
+      username: logicwind
+      password: logicwind
+      database: gateway_todo_db
+      port: 27017
+      host: localhost  
+logging:
+    level:
+        org:
+            springframework:
+                data:
+                    mongodb:
+                        core:
+                            ReactiveMongoTemplate: DEBUG
+                            

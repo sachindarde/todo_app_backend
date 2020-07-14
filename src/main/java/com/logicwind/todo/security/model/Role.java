@@ -1,0 +1,5 @@
+package com.logicwind.todo.security.model;
+
+public enum Role {
+	ROLE_USER_FREE,ROLE_USER_STARTER,ROLE_USER_DEVELOPER,ROLE_USER_SUPER,ROLE_ADMIN,ROLE_ADMIN_SUPER,ROLE_ADMIN_MANAGER
+}
